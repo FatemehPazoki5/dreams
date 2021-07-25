@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>write dream</title>
+        <link href="style.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <body>
+        <div class="container">
+            <div class="tools">
+                <input type="color" class="color" onchange="color(this.value)"/>
+                <button class="size inc fa fa-plus" onclick="inc()"></button>
+                <button class="size dec fa fa-minus" onclick="dec()"></button>
+                <button class="bold fa fa-bold" onclick="bold(this)"></button>
+                <button class="italic fa fa-italic" onclick="italic(this)"></button>
+                <button class="left fa fa-align-left" onclick="left(this)"></button>
+                <button class="center fa fa-align-center" onclick="center(this)"></button>
+                <button class="right fa fa-align-right" onclick="right(this)"></button>
+            </div>
+            <textarea class="text" id="text" placeholder="شروع به نوشتن کنید"></textarea>
+            <a href="./../3firstpage/public_html/index.html"><img class="icon-home" src="https://img.icons8.com/ios/50/000000/home--v2.png" title="go to first page"></a>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
+
+

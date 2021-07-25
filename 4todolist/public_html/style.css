@@ -1,0 +1,109 @@
+body {
+    background: #fff;
+    text-align: center;
+    font-family: 'Yekan', sans-serif;
+}
+
+.intro {
+    margin-top: 42px;
+    font-weight: bold;
+    
+}
+
+h1 {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Yekan';
+}
+
+p {
+    font-weight: 600;
+    font-family: 'Yekan';
+}
+
+
+#enter {
+    border: none;
+    padding: 18px 29px;
+    border-radius: 5px;
+    color: #ac7dd7;
+    background-color: #133d88;
+    transition: all 0.75s ease;
+    -webkit-transition: all 0.75s ease;
+    -moz-transition: all 0.75s ease;
+    -ms-transition: all 0.75s ease;
+    -o-transition: all 0.75 ease;
+    font-weight: normal;
+}
+
+#enter:hover {
+    background-color: #9f9aec;
+    color: #FFCD5D;
+}
+
+ul {
+    text-align: right;
+    margin-top: 20px;
+}
+
+
+li {
+    list-style: none;
+    padding: 10px 20px;
+    color: #000000;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: 2px solid #0a1b95;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: #9f9aec;
+    transition: all 0.75s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5 ease;
+    font-family: 'Yekan';
+}
+
+li:hover {
+    background: #76CFE0;
+}
+
+li>button {
+    font-weight: normal;
+    background: none;
+    border: none;
+    float: right;
+    color: #0a1b95;
+    font-weight: 800;
+}
+
+input {
+    outline: none;
+   border-radius: 7px;
+    min-width: 47%;
+    padding: 14px;
+    border: none;
+    font-family: 'Yekan';
+    box-shadow: 5px 19px 27px #aca5a0, -4px -19px 27px #f7f3f3;
+    height: 74px;
+    font-size: 22px;
+    margin-top: 66px;
+}
+
+
+.done {
+    background: #51DF70 !important;
+    color: #00891E;
+}
+
+.delete {
+    display: none;
+}
+.icon-home{
+    margin-left: -1383px;
+    margin-bottom: 40px;
+    margin-top: 381px; 
+    width: 40px;
+}
